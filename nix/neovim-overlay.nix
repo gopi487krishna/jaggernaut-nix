@@ -27,6 +27,7 @@ with final.pkgs.lib; let
   # }
   all-plugins = with pkgs.vimPlugins; [
     neovim-ayu
+    toggleterm-nvim
     # plugins from nixpkgs go in here.
     # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     nvim-treesitter.withAllGrammars
