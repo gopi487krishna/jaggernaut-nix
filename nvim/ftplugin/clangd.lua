@@ -5,6 +5,7 @@ end
 
 local root_files = {
   '.git',
+  '.compile_commands.json'
 }
 
 vim.lsp.start {
