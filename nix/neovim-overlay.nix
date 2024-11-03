@@ -96,6 +96,7 @@ with final.pkgs.lib; let
     nil # nix LSP
     zls
     clang-tools
+    ripgrep
   ];
 in {
   # This is the neovim derivation
