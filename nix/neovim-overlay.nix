@@ -97,6 +97,7 @@ with final.pkgs.lib; let
     nil # nix LSP
     zls
     clang-tools
+    rust-analyzer
     ripgrep
   ];
 in {
