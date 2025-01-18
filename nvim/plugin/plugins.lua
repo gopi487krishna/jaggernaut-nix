@@ -7,3 +7,5 @@ vim.g.did_load_plugins_plugin = true
 -- even with default configs
 
 require('nvim-surround').setup()
+require("fidget").setup()
+require("actions-preview").setup()
