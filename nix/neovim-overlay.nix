@@ -90,7 +90,6 @@ with final.pkgs.lib; let
     which-key-nvim
     render-markdown-nvim
     actions-preview-nvim
-    codecompanion-nvim
     fidget-nvim
     nvim-navbuddy
   ];
