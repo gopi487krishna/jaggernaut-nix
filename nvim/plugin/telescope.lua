@@ -6,3 +6,4 @@ vim.keymap.set('n', '<leader>tb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>th', builtin.help_tags, {})
 vim.keymap.set('n', '<leader>tm', builtin.man_pages, {})
 vim.keymap.set('n', '<leader>ss', builtin.lsp_document_symbols, {})
+
