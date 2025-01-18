@@ -49,8 +49,6 @@ opt.swapfile = false
 -- Status line
 vim.o.laststatus = 3
 vim.o.cmdheight  = 0
--- set leader key to space
-vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
 
@@ -117,8 +115,8 @@ vim.api.nvim_create_autocmd("LspAttach", {
 })
 
 -- <leader> key. Defaults to `\`. Some people prefer space.
--- g.mapleader = ' '
--- g.maplocalleader = ' '
+g.mapleader = ' '
+g.maplocalleader = ','
 
 opt.compatible = false
 
