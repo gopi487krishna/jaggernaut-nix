@@ -9,3 +9,4 @@ vim.g.did_load_plugins_plugin = true
 require('nvim-surround').setup()
 require("fidget").setup()
 require("actions-preview").setup()
+require("nvim-navbuddy").setup()
