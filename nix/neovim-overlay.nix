@@ -89,6 +89,10 @@ with final.pkgs.lib; let
     # ^ bleeding-edge plugins from flake inputs
     which-key-nvim
     render-markdown-nvim
+    actions-preview-nvim
+    codecompanion-nvim
+    fidget-nvim
+    nvim-navbuddy
   ];
 
   extraPackages = with pkgs; [
