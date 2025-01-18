@@ -92,10 +92,6 @@ with final.pkgs.lib; let
     actions-preview-nvim
     codecompanion-nvim
     fidget-nvim
-    nvim-navic
-    nui-nvim
-    comment-nvim
-    nvim-navbuddy
   ];
 
   extraPackages = with pkgs; [
