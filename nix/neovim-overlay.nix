@@ -26,6 +26,8 @@ with final.pkgs.lib; let
   #   ...
   # }
   all-plugins = with pkgs.vimPlugins; [
+    # plugins from nixpkgs go in here.
+    # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     neovim-ayu
     toggleterm-nvim
     alpha-nvim
@@ -33,8 +35,6 @@ with final.pkgs.lib; let
     formatter-nvim
     nvim-tree-lua
     telescope-fzf-native-nvim
-    # plugins from nixpkgs go in here.
-    # https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=vimPlugins
     nvim-treesitter.withAllGrammars
     luasnip # snippets | https://github.com/l3mon4d3/luasnip/
     # nvim-cmp (autocompletion) and extensions
@@ -92,6 +92,9 @@ with final.pkgs.lib; let
     actions-preview-nvim
     codecompanion-nvim
     fidget-nvim
+    nvim-notify
+    # Pomodoro timer (Not available in nixpkgs)
+    (mkNvimPlugin inputs.pomo-nvim "pomo.nvim")
   ];
 
   extraPackages = with pkgs; [
