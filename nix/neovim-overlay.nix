@@ -96,6 +96,7 @@ with final.pkgs.lib; let
     # Pomodoro timer (Not available in nixpkgs)
     (mkNvimPlugin inputs.pomo-nvim "pomo.nvim")
     harpoon2
+    popup-nvim
   ];
 
   extraPackages = with pkgs; [
