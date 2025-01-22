@@ -12,10 +12,6 @@
     #   url = "github:Cassin01/wf.nvim";
     #   flake = false;
     # };
-    pomo-nvim = {
-      url = "github:epwalsh/pomo.nvim";
-      flake = false;
-    };
   };
 
   outputs = inputs @ {

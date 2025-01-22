@@ -93,8 +93,7 @@ with final.pkgs.lib; let
     codecompanion-nvim
     fidget-nvim
     nvim-notify
-    # Pomodoro timer (Not available in nixpkgs)
-    (mkNvimPlugin inputs.pomo-nvim "pomo.nvim")
+    pomo-nvim
     harpoon2
     popup-nvim
   ];
