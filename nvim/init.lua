@@ -138,7 +138,7 @@ opt.showmatch = true -- Highlight matching parentheses, etc
 opt.incsearch = true
 opt.hlsearch = true
 
-opt.spell = true
+opt.spell = false
 opt.spelllang = 'en'
 
 opt.expandtab = true
