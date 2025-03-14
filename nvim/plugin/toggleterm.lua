@@ -32,7 +32,7 @@ local aider_term = Terminal:new({
   hidden = true,
   direction = "vertical",
   on_open = function(self)
-    self:resize(vim.o.columns * 0.3)
+    self:resize(vim.o.columns * 0.35)
   end
 }
 )
@@ -47,7 +47,7 @@ local vertical_term = Terminal:new({
   hidden = true,
   direction = "vertical",
   on_open = function(self)
-    self:resize(vim.o.columns * 0.3)
+    self:resize(vim.o.columns * 0.35)
   end
 }
 )
