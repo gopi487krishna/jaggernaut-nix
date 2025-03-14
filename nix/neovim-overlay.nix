@@ -107,6 +107,8 @@ with final.pkgs.lib; let
     clang-tools
     rust-analyzer
     ripgrep
+    aider-chat
+    lazygit
   ];
 in {
   # This is the neovim derivation
