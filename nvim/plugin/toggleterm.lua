@@ -23,7 +23,7 @@ function LazygitTermToogle()
   lazygit_term:toggle()
 end
 
-vim.api.nvim_set_keymap("n", "<leader>tg", "<cmd>lua LazygitTermToogle()<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<leader>gg", "<cmd>lua LazygitTermToogle()<CR>", {noremap = true, silent = true})
 
 
 -- Integrated Aider Terminal
@@ -40,7 +40,7 @@ local aider_term = Terminal:new({
 function AiderTermToggle()
   aider_term:toggle()
 end
-vim.api.nvim_set_keymap("n", "<leader>ta", "<cmd>lua AiderTermToggle()<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<leader>aa", "<cmd>lua AiderTermToggle()<CR>", {noremap = true, silent = true})
 
 -- Simple Vertical Terminal
 local vertical_term = Terminal:new({
@@ -55,5 +55,5 @@ local vertical_term = Terminal:new({
 function VerticalTermToggle()
   vertical_term:toggle()
 end
-vim.api.nvim_set_keymap("n", "<leader>tv", "<cmd>lua VerticalTermToggle()<CR>", {noremap = true, silent = true})
+vim.api.nvim_set_keymap("n", "<leader>vv", "<cmd>lua VerticalTermToggle()<CR>", {noremap = true, silent = true})
 
