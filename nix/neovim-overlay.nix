@@ -97,6 +97,7 @@ with final.pkgs.lib; let
     harpoon2
     popup-nvim
     lazygit-nvim
+    flash-nvim
   ];
 
   extraPackages = with pkgs; [
