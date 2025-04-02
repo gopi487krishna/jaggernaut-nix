@@ -28,7 +28,7 @@ vim.api.nvim_set_keymap("n", "<leader>gg", "<cmd>lua LazygitTermToogle()<CR>", {
 
 -- Integrated Aider Terminal
 local aider_term = Terminal:new({
-  cmd = "aider --model openrouter/anthropic/claude-3.7-sonnet --watch-files",
+  cmd = "aider --model openrouter/google/gemini-2.0-flash-001 --watch-files",
   hidden = true,
   direction = "vertical",
   on_open = function(self)
