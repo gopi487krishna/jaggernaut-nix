@@ -98,6 +98,7 @@ with final.pkgs.lib; let
     popup-nvim
     lazygit-nvim
     flash-nvim
+    rustaceanvim
   ];
 
   extraPackages = with pkgs; [
